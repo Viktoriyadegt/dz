@@ -1,5 +1,6 @@
 {
   "name": "2",
+  "homepage": "https://Viktoriyadegt.github.io/dz_ignata",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,11 +19,14 @@
     "uuid": "^8.3.2",
     "web-vitals": "^2.1.0"
   },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run boild",
+    "deploy": "gh-pages - d build"
   },
   "eslintConfig": {
     "extends": [
