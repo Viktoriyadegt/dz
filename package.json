@@ -1,6 +1,5 @@
 {
   "name": "2",
-  "homepage": "https://Viktoriyadegt.github.io/dz_ignata",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,8 +22,6 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
